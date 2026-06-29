@@ -127,7 +127,7 @@ public class AerialAssaultSpell extends AbstractHarbingerSpell {
 
         float d2 = -Mth.sin(d * ((float) Math.PI / 180F));
 
-        Wither_Missile_Entity missile = new Wither_Missile_Entity(ModEntities.WITHER_MISSILE.get(), caster, spawn.add(offset).x, spawn.add(offset).y,  spawn.add(offset).z, 0, d2, 0, getDamage(spellLevel, caster), level);
+        Wither_Missile_Entity missile = new Wither_Missile_Entity(ModEntities.WITHER_MISSILE.get(), caster, spawn.add(offset).x, spawn.add(offset).y,  spawn.add(offset).z, new Vec3(0, d2, 0), getDamage(spellLevel, caster), level);
 
         level.addFreshEntity(missile);
     }

@@ -1,6 +1,5 @@
 package net.acetheeldritchking.cataclysm_spellbooks.items.weapons;
 
-import com.github.L_Ender.cataclysm.config.CMConfig;
 import io.redspace.ironsspellbooks.api.item.weapons.MagicSwordItem;
 import io.redspace.ironsspellbooks.api.registry.AttributeRegistry;
 import io.redspace.ironsspellbooks.api.registry.SpellDataRegistryHolder;
